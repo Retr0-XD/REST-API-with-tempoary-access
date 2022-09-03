@@ -1,0 +1,9 @@
+const { application } = require("express")
+const { json } = require("express/lib/response")
+
+POST http://localhost:8085/antimonke/34 HTTP/1.1
+content-type:application/json
+
+{
+    "tail": "monked"
+}
